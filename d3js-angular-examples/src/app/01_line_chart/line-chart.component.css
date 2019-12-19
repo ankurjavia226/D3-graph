@@ -1,0 +1,53 @@
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    shape-rendering: crispEdges;
+}
+
+.axis-title {
+    fill: none;
+    stroke: black;
+    stroke-width: 0.5px;
+}
+
+.axis--x path {
+    /*display: none;*/
+}
+
+.area {
+    fill: url(#temperature-gradient);
+    stroke-width: 05px;
+}
+
+.line {
+    fill: none;
+    stroke: rgb(12, 1, 10);
+    stroke-width: 3px;
+}
+
+.circle {
+    fill: none;
+    stroke: rgb(248, 212, 10);
+}
+
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 0.2rem;
+    background: #313639;
+    color: #f9f9f9;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: 0.7rem;
+}
